@@ -26,5 +26,5 @@ Now the app is running on 127.0.0.1:5000
 
 ## Usage : 
 ```sh
-https://127.0.0.1:5000/getsubs/<Enter name of the channel/Group> Here
+https://127.0.0.1:5000/getsubs/<Enter name of the channel or Group Here>
 ```
