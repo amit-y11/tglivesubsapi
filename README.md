@@ -1,6 +1,6 @@
 # tglivesubsapi
 Simple Flask App to get live subscribers count of telegram channels along with channel logo and description.
-You can check out this api here [tglivesubsapi.vercel.app](ttps://tglivesubsapi.vercel.app/)
+
 You can get channel or group name, its description , its current subcribers/members , and its profile picture
 ```json
 {"channel_name":"Bots By Amit",
@@ -28,3 +28,4 @@ Now the app is running on 127.0.0.1:5000
 ```sh
 https://127.0.0.1:5000/getsubs/<Enter name of the channel or Group Here>
 ```
+You can check out this api here [tglivesubsapi.vercel.app](https://tglivesubsapi.vercel.app/).
