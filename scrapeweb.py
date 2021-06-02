@@ -5,7 +5,7 @@ def scrape(channel):
     try:
         page=requests.get("https://telegram.dog/"+channel)
         soup=bs(page.text,'html.parser')
-        subs=soup.find("div",{"class":'tgme_page_extra'}).text.replace(" ","").split("members")[0]
+        subs=soup.find("div",{"class":'tgme_page_extra'}).text.replace(" ","").split("subscribers")[0]
         channel_name=soup.find("div",{"class":'tgme_page_title'}).text.replace("\n","")
         description=soup.find("div",{"class":'tgme_page_description'}).text
         img=soup.find("img",{"class":'tgme_page_photo_image'})['src']
